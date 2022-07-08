@@ -1,0 +1,201 @@
+2022-07-08 11:11:33.924  INFO 26316 --- [restartedMain] com.renderg.system.SystemApplication     : Starting SystemApplication on DESKTOP-1TP585T with PID 26316 (C:\Users\11213\Desktop\3\renderg-client-interface\target\classes started by 11213 in C:\Users\11213\Desktop\3\renderg-client-interface)
+2022-07-08 11:11:33.935  INFO 26316 --- [restartedMain] com.renderg.system.SystemApplication     : No active profile set, falling back to default profiles: default
+2022-07-08 11:11:36.569  INFO 26316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:11:36.570  INFO 26316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2022-07-08 11:11:36.579  INFO 26316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\chy\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.13\bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\3Delight\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\11213\Desktop\工作软件\cmder;C:\;rogram Files\Aspera\Client\bin\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files\nodejs\;C:\Program Files\chy\Git\cmd;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\Hostx64\x64\;C:\Program Files\Aspera\Client\bin\;C:\Program Files\WireGuard\;C:\Users\11213\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\11213\AppData\Local\Programs\Python\Python37\;C:\Users\11213\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\11213\AppData\Roaming\npm;.]
+2022-07-08 11:11:36.728  INFO 26316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:11:37.206  INFO 26316 --- [restartedMain] c.b.d.d.DynamicDataSourceCreator         : 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2022-07-08 11:11:39.404  INFO 26316 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1,master} inited
+2022-07-08 11:11:41.686  INFO 26316 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2,slave} inited
+2022-07-08 11:11:41.687  INFO 26316 --- [restartedMain] c.b.d.d.DynamicRoutingDataSource         : 初始共加载 2 个数据源
+2022-07-08 11:11:41.690  INFO 26316 --- [restartedMain] c.b.d.d.DynamicRoutingDataSource         : 动态数据源-加载 slave 成功
+2022-07-08 11:11:41.691  INFO 26316 --- [restartedMain] c.b.d.d.DynamicRoutingDataSource         : 动态数据源-加载 master 成功
+2022-07-08 11:11:41.691  INFO 26316 --- [restartedMain] c.b.d.d.DynamicRoutingDataSource         : 当前的默认数据源是单数据源，数据源名为 master
+2022-07-08 11:11:43.252  INFO 26316 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-08 11:11:43.263  INFO 26316 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-08 11:11:43.264  INFO 26316 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2022-07-08 11:11:43.265  INFO 26316 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-08 11:11:43.266  INFO 26316 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-08 11:11:43.266  INFO 26316 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-08 11:11:43.266  INFO 26316 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2022-07-08 11:11:43.266  INFO 26316 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3cf0c3d2
+2022-07-08 11:11:43.462  INFO 26316 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = earliest
+	bootstrap.servers = [10.6.0.136:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = aspera-file-event-java
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-07-08 11:11:43.521  INFO 26316 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.1
+2022-07-08 11:11:43.521  INFO 26316 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : fa14705e51bd2ce5
+2022-07-08 11:11:43.713  INFO 26316 --- [restartedMain] org.apache.kafka.clients.Metadata        : Cluster ID: MSdREHDhRdSbTG67wPrwBg
+2022-07-08 11:11:43.726  INFO 26316 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = earliest
+	bootstrap.servers = [10.6.0.136:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = aspera-file-event-java
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-07-08 11:11:43.732  INFO 26316 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 2.0.1
+2022-07-08 11:11:43.732  INFO 26316 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : fa14705e51bd2ce5
+2022-07-08 11:11:43.739  INFO 26316 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-07-08 11:11:43.780  INFO 26316 --- [restartedMain] com.renderg.system.SystemApplication     : Started SystemApplication in 10.449 seconds (JVM running for 15.093)
+2022-07-08 11:11:43.842  INFO 26316 --- [aspera-file-event-java-0-C-1] org.apache.kafka.clients.Metadata        : Cluster ID: MSdREHDhRdSbTG67wPrwBg
+2022-07-08 11:11:43.844  INFO 26316 --- [aspera-file-event-java-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=aspera-file-event-java] Discovered group coordinator 10.6.0.136:9092 (id: 2147483647 rack: null)
+2022-07-08 11:11:43.847  INFO 26316 --- [aspera-file-event-java-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=aspera-file-event-java] Revoking previously assigned partitions []
+2022-07-08 11:11:43.847  INFO 26316 --- [aspera-file-event-java-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=aspera-file-event-java] (Re-)joining group
+2022-07-08 11:11:44.384  INFO 26316 --- [RMI TCP Connection(1)-192.168.30.112] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 11:11:44.620  INFO 26316 --- [RMI TCP Connection(2)-192.168.30.112] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2022-07-08 11:11:44.622  INFO 26316 --- [RMI TCP Connection(2)-192.168.30.112] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2022-07-08 11:11:46.713  INFO 26316 --- [aspera-file-event-java-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-2, groupId=aspera-file-event-java] Successfully joined group with generation 868
+2022-07-08 11:11:46.715  INFO 26316 --- [aspera-file-event-java-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-2, groupId=aspera-file-event-java] Setting newly assigned partitions []
+2022-07-08 11:13:09.742  INFO 26316 --- [http-nio-3003-exec-2] com.renderg.system.utils.HttpUtils       : sendPost - http://10.6.6.83:3006/system/renderg/t?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMTVkYWJjYi0wMzNhLTQ4NjQtOThmNy0xODU2NTY2ZTNlNzYiLCJleHAiOjE2NTY2NDE5NDAsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjU2MDM3MTQwLCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjU2MDM3MTQwLCJpZGVudGl0eSI6MzExOH0.XTWOLXp_5gmrPmP4OvBph2ct9QkCoM8MHgCzr4fCFos
+2022-07-08 11:13:09.824  INFO 26316 --- [http-nio-3003-exec-2] com.renderg.system.utils.HttpUtils       : recv - {}
+2022-07-08 11:13:30.051  INFO 26316 --- [http-nio-3003-exec-3] com.renderg.system.utils.HttpUtils       : sendPost - http://10.6.6.83:3006/system/renderg/t?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMTVkYWJjYi0wMzNhLTQ4NjQtOThmNy0xODU2NTY2ZTNlNzYiLCJleHAiOjE2NTY2NDE5NDAsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjU2MDM3MTQwLCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjU2MDM3MTQwLCJpZGVudGl0eSI6MzExOH0.XTWOLXp_5gmrPmP4OvBph2ct9QkCoM8MHgCzr4fCFos
+2022-07-08 11:13:30.119  INFO 26316 --- [http-nio-3003-exec-3] com.renderg.system.utils.HttpUtils       : recv - {}
+2022-07-08 11:13:41.413  INFO 26316 --- [http-nio-3003-exec-5] com.renderg.system.utils.HttpUtils       : sendPost - http://10.6.6.83:3006/system/renderg/t?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMTVkYWJjYi0wMzNhLTQ4NjQtOThmNy0xODU2NTY2ZTNlNzYiLCJleHAiOjE2NTY2NDE5NDAsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjU2MDM3MTQwLCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjU2MDM3MTQwLCJpZGVudGl0eSI6MzExOH0.XTWOLXp_5gmrPmP4OvBph2ct9QkCoM8MHgCzr4fCFos
+2022-07-08 11:13:41.490  INFO 26316 --- [http-nio-3003-exec-5] com.renderg.system.utils.HttpUtils       : recv - {}
+2022-07-08 11:14:01.659  INFO 26316 --- [http-nio-3003-exec-7] com.renderg.system.utils.HttpUtils       : sendPost - http://10.6.6.83:3006/system/renderg/t?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyYjdjNDFmMC0yNWM1LTRhMzAtODI5Mi0zNWE0MzEwNzE5OGYiLCJleHAiOjE2NTc1OTM2ODQsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjU2OTg4ODg0LCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjU2OTg4ODg0LCJpZGVudGl0eSI6MzExOH0.u8t_ifzA9RXjqhKJFM6XaoNftlVmLyHD3dbI_YMxTUQ
+2022-07-08 11:14:01.821  INFO 26316 --- [http-nio-3003-exec-7] com.renderg.system.utils.HttpUtils       : recv - {nbf=1656988884, identity=3118, exp=1657593684, fresh=false, type="access", iat=1656988884, jti="2b7c41f0-25c5-4a30-8292-35a43107198f"}
+2022-07-08 11:14:01.951  INFO 26316 --- [http-nio-3003-exec-7] com.renderg.system.utils.FileEventUtils  : D:/mnt/wlcb/assets/3000/3118/input
+2022-07-08 11:14:01.957  INFO 26316 --- [http-nio-3003-exec-7] com.renderg.system.utils.FileEventUtils  : UNZIP
+2022-07-08 11:14:20.491  INFO 26316 --- [http-nio-3003-exec-9] com.renderg.system.utils.HttpUtils       : sendPost - http://10.6.6.83:3006/system/renderg/t?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyYjdjNDFmMC0yNWM1LTRhMzAtODI5Mi0zNWE0MzEwNzE5OGYiLCJleHAiOjE2NTc1OTM2ODQsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjU2OTg4ODg0LCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjU2OTg4ODg0LCJpZGVudGl0eSI6MzExOH0.u8t_ifzA9RXjqhKJFM6XaoNftlVmLyHD3dbI_YMxTUQ
+2022-07-08 11:14:20.651  INFO 26316 --- [http-nio-3003-exec-9] com.renderg.system.utils.HttpUtils       : recv - {nbf=1656988884, identity=3118, exp=1657593684, fresh=false, type="access", iat=1656988884, jti="2b7c41f0-25c5-4a30-8292-35a43107198f"}
+2022-07-08 11:14:20.687  INFO 26316 --- [http-nio-3003-exec-9] com.renderg.system.utils.FileEventUtils  : D:/mnt/wlcb/assets/3000/3118/input
+2022-07-08 11:14:20.688  INFO 26316 --- [http-nio-3003-exec-9] com.renderg.system.utils.FileEventUtils  : UNZIP
+2022-07-08 11:14:40.230  INFO 26316 --- [http-nio-3003-exec-11] com.renderg.system.utils.HttpUtils       : sendPost - http://10.6.6.83:3006/system/renderg/t?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMTVkYWJjYi0wMzNhLTQ4NjQtOThmNy0xODU2NTY2ZTNlNzYiLCJleHAiOjE2NTY2NDE5NDAsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjU2MDM3MTQwLCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjU2MDM3MTQwLCJpZGVudGl0eSI6MzExOH0.XTWOLXp_5gmrPmP4OvBph2ct9QkCoM8MHgCzr4fCFos
+2022-07-08 11:14:40.397  INFO 26316 --- [http-nio-3003-exec-11] com.renderg.system.utils.HttpUtils       : recv - {}
+2022-07-08 11:14:44.555  INFO 26316 --- [http-nio-3003-exec-13] com.renderg.system.utils.HttpUtils       : sendPost - http://10.6.6.83:3006/system/renderg/t?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMTVkYWJjYi0wMzNhLTQ4NjQtOThmNy0xODU2NTY2ZTNlNzYiLCJleHAiOjE2NTY2NDE5NDAsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjU2MDM3MTQwLCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjU2MDM3MTQwLCJpZGVudGl0eSI6MzExOH0.XTWOLXp_5gmrPmP4OvBph2ct9QkCoM8MHgCzr4fCFos
+2022-07-08 11:14:44.591  INFO 26316 --- [http-nio-3003-exec-13] com.renderg.system.utils.HttpUtils       : recv - {}
+2022-07-08 11:14:52.764  INFO 26316 --- [http-nio-3003-exec-15] com.renderg.system.utils.HttpUtils       : sendPost - http://10.6.6.83:3006/system/renderg/t?Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyYjdjNDFmMC0yNWM1LTRhMzAtODI5Mi0zNWE0MzEwNzE5OGYiLCJleHAiOjE2NTc1OTM2ODQsImZyZXNoIjpmYWxzZSwiaWF0IjoxNjU2OTg4ODg0LCJ0eXBlIjoiYWNjZXNzIiwibmJmIjoxNjU2OTg4ODg0LCJpZGVudGl0eSI6MzExOH0.u8t_ifzA9RXjqhKJFM6XaoNftlVmLyHD3dbI_YMxTUQ
+2022-07-08 11:14:52.830  INFO 26316 --- [http-nio-3003-exec-15] com.renderg.system.utils.HttpUtils       : recv - {nbf=1656988884, identity=3118, exp=1657593684, fresh=false, type="access", iat=1656988884, jti="2b7c41f0-25c5-4a30-8292-35a43107198f"}
+2022-07-08 11:14:52.865  INFO 26316 --- [http-nio-3003-exec-15] com.renderg.system.utils.FileEventUtils  : D:/mnt/wlcb/assets/3000/3118/input
+2022-07-08 11:14:52.866  INFO 26316 --- [http-nio-3003-exec-15] com.renderg.system.utils.FileEventUtils  : Compress
+2022-07-08 11:14:53.016  INFO 26316 --- [SimpleAsyncTaskExecutor-3] com.renderg.system.utils.RunTimeUtils    : D:/mnt/wlcb/assets/3000/3118/input
